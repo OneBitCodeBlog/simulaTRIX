@@ -14,6 +14,7 @@ O objetivo deste projeto é criar um agente de IA capaz de controlar a simulaç�
 - Controle das configurações das lâmpadas e do ar-condicionado através de um formulário.
 - Atualização automática das configurações a cada 3 segundos com base em um arquivo de configuração (`config.json`).
 
+
 ## Estrutura do Projeto
 
 ```
@@ -37,6 +38,10 @@ O objetivo deste projeto é criar um agente de IA capaz de controlar a simulaç�
 - `script.js`: Arquivo JavaScript responsável por enviar o cenário para o servidor e atualizar a interface com as novas configurações.
 - `openai-api.js`: Função para chamar a API da OpenAI e obter as configurações das luzes e do ar-condicionado.
 - `server.js`: Servidor ExpressJS que serve a página HTML, processa o endpoint `/setHouseSetup` e salva as configurações em `config.json`.
+
+## Instruções de Desenvolvimento
+
+As instruções detalhadas para o desenvolvimento do projeto estão disponíveis no arquivo [instructions.md](./instructions.md).
 
 ## Como Usar
 
